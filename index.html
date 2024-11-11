@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <title>শখের দোকান | ইকমার্স ওয়েবসাইট</title>
+</head>
+
+<body>
+    <header style="background-color: #1f2d3b;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="/">
+                    <img src="img/logo.png" alt="শখের দোকানের লোগো" width="120">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="/">হোম</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">পণ্য</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">যোগাযোগ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--- Banner -->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center justify-content-center bg-primary text-white p-5" style="background-color: #ff523b;">
+                <div>
+                    <h1>শখের দোকান-এ আপনার শখ খুঁজে নিন!</h1>
+                    <p class="mb-4"><em>আপনার শান্তিপূর্ণ অবকাশ <br>জলজ বিস্ময়ের জন্য।</em></p>
+                    <a href="products.html" class="btn btn-light btn-lg">এখনই কেনাকাটা করুন &#10142;</a>
+                </div>
+            </div>
+            <div class="col-md-6 banner-image"></div>
+        </div>
+    </section>
+    
+    <!--- Featured Products -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4" style="color: #1f2d3b;">বৈশিষ্ট্যযুক্ত পণ্য</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-1.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">গাপি</h5>
+                        <p class="card-text">১০০ টাকা</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="গাপি">
+                            <input type="hidden" name="price" value="100.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn" style="background-color: #ff7b54; color: white;" value="কার্টে যোগ করুন">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional products will follow the same format with updated button colors -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-1.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">গাপি</h5>
+                        <p class="card-text">১০০ টাকা</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="গাপি">
+                            <input type="hidden" name="price" value="100.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn" style="background-color: #ff7b54; color: white;" value="কার্টে যোগ করুন">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-2.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">ব্ল্যাক মলি</h5>
+                        <p class="card-text">১৫০ টাকা</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="গাপি">
+                            <input type="hidden" name="price" value="100.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn" style="background-color: #ff7b54; color: white;" value="কার্টে যোগ করুন">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-3.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">বেটা ফিশ</h5>
+                        <p class="card-text">৩০০ টাকা</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="গাপি">
+                            <input type="hidden" name="price" value="100.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn" style="background-color: #ff7b54; color: white;" value="কার্টে যোগ করুন">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/product-4.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">সোর্ড টেল</h5>
+                        <p class="card-text">২০০ টাকা</p>
+                        <form action="cart.html" method="GET">
+                            <input type="hidden" name="product" value="গাপি">
+                            <input type="hidden" name="price" value="100.00">
+                            <input type="hidden" name="quantity" value="1">
+                            <input type="submit" class="btn" style="background-color: #ff7b54; color: white;" value="কার্টে যোগ করুন">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <hr>
+
+    <!--- New Product -->
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <img src="img/new-product.jpg" class="img-fluid" alt="New Product">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <p>আমাদের নতুন পণ্য</p>
+                    <h1>ইলেকট্রিক ব্লু রাম</h1>
+                    <form action="cart.html" method="GET">
+                        <input type="hidden" name="product" value="স্মার্ট রিং">
+                        <input type="hidden" name="price" value="1000.00">
+                        <input type="hidden" name="quantity" value="1">
+                        <input type="submit" class="btn" style="background-color: #ff7b54; color: white;" value="কার্টে যোগ করুন">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="container my-5">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <h2 class="text-center" style="color: #1f2d3b;">যোগাযোগ করুন</h2>
+            </div>
+            <div class="col-md-8 mx-auto border rounded p-4 shadow-sm">
+                <form>
+                    <div class="mb-3">
+                        <label for="contactName" class="form-label">নাম</label>
+                        <input type="text" class="form-control" id="contactName" placeholder="আপনার নাম লিখুন">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactEmail" class="form-label">ইমেইল</label>
+                        <input type="email" class="form-control" id="contactEmail" placeholder="আপনার ইমেইল লিখুন">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactMessage" class="form-label">বার্তা</label>
+                        <textarea class="form-control" id="contactMessage" rows="4" placeholder="আপনার বার্তা লিখুন"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #ff7b54; color: white;">বার্তা পাঠান</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 শখের দোকান | All Rights Reserved by Fahad Bin Mamun</p>
+    </footer>
+
+    <!-- Bootstrap JS & jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zyLgWe7P7IvPpaXHdeG6z6gD36PfmHqNfFtvP4Fjm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0Ftv7t6nPp4vP2hAq5XrAY70XqGknkd6JRx5Z7Qk80wXJd0L" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0Ftv7t6nPp4vP2hAq5XrAY70XqGknkd6JRx5Z7Qk80wXJd0L" crossorigin="anonymous"></script>
+
+</body>
+</html>
